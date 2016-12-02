@@ -1,4 +1,4 @@
-package com.example.landy.library_sample;
+package com.example.landy.library_sample.multitype;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -7,11 +7,12 @@ import android.support.v7.widget.RecyclerView;
 
 import com.example.base_library.multitype.DisplayItem;
 import com.example.base_library.multitype.MultiTypeAdapter;
+import com.example.landy.library_sample.R;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity {
+public class MultiTypeActivity extends AppCompatActivity {
 
     private static final int SPAN_COUNT = 2;
     private List<DisplayItem> items;

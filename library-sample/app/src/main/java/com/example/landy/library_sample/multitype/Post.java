@@ -1,4 +1,4 @@
-package com.example.landy.library_sample;
+package com.example.landy.library_sample.multitype;
 
 import android.support.annotation.NonNull;
 

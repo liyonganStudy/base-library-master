@@ -2,6 +2,8 @@ package com.example.landy.library_sample;
 
 import android.app.Application;
 
+import com.example.landy.library_sample.multitype.CustomExceptionHandler;
+
 /**
  * Created by landy on 16/9/10.
  *

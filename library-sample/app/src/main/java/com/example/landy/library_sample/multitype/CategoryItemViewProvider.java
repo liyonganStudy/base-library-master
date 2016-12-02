@@ -1,4 +1,4 @@
-package com.example.landy.library_sample;
+package com.example.landy.library_sample.multitype;
 
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
@@ -8,6 +8,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.example.base_library.multitype.ItemViewProvider;
+import com.example.landy.library_sample.R;
 
 public class CategoryItemViewProvider extends ItemViewProvider<Category, CategoryItemViewProvider.ViewHolder> {
 

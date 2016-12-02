@@ -8,6 +8,8 @@ import android.view.ViewGroup;
 import java.util.ArrayList;
 import java.util.List;
 
+import static utils.Preconditions.checkNotNull;
+
 /**
  * Created by landy on 16/11/25.
  *
@@ -25,6 +27,8 @@ public class MultiTypeAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
 
     public void registerMultiType(@NonNull Class<? extends DisplayItem> clazz,
                                   @NonNull ItemViewProvider provider) {
+        checkNotNull(clazz, "clazz is null");
+        checkNotNull(provider, "provider is null");
         typePool.register(clazz, provider);
     }
 

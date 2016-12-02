@@ -1,4 +1,4 @@
-package com.example.landy.library_sample;
+package com.example.landy.library_sample.multitype;
 
 import android.support.annotation.NonNull;
 import android.support.v7.widget.LinearLayoutManager;
@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.base_library.multitype.ItemViewProvider;
+import com.example.landy.library_sample.R;
 
 import java.util.List;
 
